@@ -1,11 +1,11 @@
 import React from "react"
-import {Navbar} from 'reactstrap';
+import {Navbar, NavbarBrand} from 'reactstrap';
 
 class NavBar extends React.Component{
     render(){
         return(
-            <Navbar>
-
+            <Navbar color="light" light expand="md">
+                <NavbarBrand href="/">reactstrap</NavbarBrand>
             </Navbar>
         )
     }
