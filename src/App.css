@@ -1,7 +1,39 @@
+/* 
+CSS THEME COLORS:
+yellow: #faed26
+dark grey: #46344e
+grey: #5a5560
+beige: #9d8d8f
+light brown: #9b786f
+*/
+
+
 .about-me{
+  min-height: 100vh;
   background-color: #9d8d8f;
   
   
+}
+.about{
+  font-size: 50px
+}
+.about-me-Column{
+  display: flex;
+  flex-direction: row;
+  margin: 0%;
+  justify-content: center;
+
+  
+}
+
+.about-me-Rows{
+  display: flex;
+  flex-direction: row;
+}
+
+.AlexCard{
+  min-height: 100vh;
+  background-color: #5a5560;
 }
 
 .App {
@@ -34,7 +66,30 @@
   color: #61dafb;
 }
 
+.blogs{
+  min-height: 100vh;
+  background-color: #9d8d8f;
+}
 
+.footer{
+  min-height: 100vh;
+  background-color: #46344e;
+}
+
+.hi{
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+
+}
+
+
+.highlight{
+  font-size: 20px;  
+  font-weight: 900;
+  color: #faed26;
+  
+}
 
 @keyframes App-logo-spin {
   from {
@@ -44,3 +99,33 @@
     transform: rotate(360deg);
   }
 }
+
+.landingPage{
+  background-image: url(./pictures/coffeeScaled3.gif) ;
+  background-color: #282c34;  
+  height: 100vh;     
+  background-position: top;
+  background-repeat: no-repeat;
+  
+  
+ 
+
+}
+
+.landingPage .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+
+}
+
+
+.projects{
+  min-height: 100vh;
+  background-color: #9b786f
+}
+
+
+
