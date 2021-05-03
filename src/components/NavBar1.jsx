@@ -26,18 +26,13 @@ const NavBar1 = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="navbar-bottom-border sticky-top">
       <Navbar color="dark" dark expand="md">
         <NavbarBrand href="/">
-        <img src={brandPicture} alt="a pic"></img>
-        {/* <a hred=></a> */}
-        {/* <a class="pull-left"></a>  */}
-          
+          <img src={brandPicture} alt="a pic"></img>             
         </NavbarBrand>      
-        
-        
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
+          <NavbarToggler onClick={toggle} />
+            <Collapse isOpen={isOpen} navbar>
               <div className="linkedInIcon-listed-element">
                 <NavLink href="https://www.linkedin.com/in/alexander-cheng-90368255/"><img src={linkedInIcon} alt="linkedInIcon pic"></img></NavLink>
               </div>
@@ -47,11 +42,7 @@ const NavBar1 = (props) => {
               <div className="blogIconPicture-listed-element">
                 <NavLink href="https://github.com/reactstrap/reactstrap"><img src={blogIconPicture} alt="blogIcon pic"></img></NavLink>
               </div>
-              
-            
-
-          
-        </Collapse>
+            </Collapse>
       </Navbar>
     </div>
   );
