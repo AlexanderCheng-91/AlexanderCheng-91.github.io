@@ -1,6 +1,7 @@
 import React from "react"
 import {Row, Col} from "reactstrap"
 
+import '../App.css'
 import alexHeroImage from "../pictures/alexpicSmallResized180by180.png"
 
 class AlexCard extends React.Component{
@@ -15,32 +16,32 @@ class AlexCard extends React.Component{
     render(){
         return(
             <div className="AlexCard">
-                <Row noGutters>
+                {/* try to mess with rows and col or picture size */}
+                
                     
                         <div className="alex-hero-image chart-slide-in-right">
-                            <img src={alexHeroImage} alt="Alexander Cheng"></img>
-                            <p>alex picture</p>
+                            <img src={alexHeroImage} className="alexPicture" alt="Alexander Cheng"></img>
+                                <div className="alexCard-title">
+                                    <p>
+                                        Who am I?
+                                    </p>
+                                </div>
+                            <div className="alexCard-body">
+                                <p>
+                                    I'm a full stack developer located in <br/>
+                                     Los Angeles, CA. I love to put a website together <br/>
+                                      from the front end to the back end. <br/>
+                                       My stack is React.js, C#, and SQL.<br/>
+                                        Feel free to reach out!
+                                        {/* link this "feel free to reach out" to contact page */}
+                                </p>
+                            </div>
                         </div>
                     
-                    <Col>
-                        <div className="alex-Stats">
-                            <p>alex stats</p>
-                            {/* 1. we need a div to encase the whole graph */}
-                            {/* <div className="chart-slide-in-left"> */}
-                                {/* 2. we need div bar for bar names */}
-                                {/* <div className="bar-name"> */}
-                                    {/* I need to make a box for the bar name */}
-                                    {/* <div> */}
-                                        {/* 3. we need div bars to animate */}
-                                        {/* note this whole bar needs to be on same Row */}
-                                        {/* the graph itself needs to be in a col */}
-                                    {/* </div> */}
-
-                                {/* </div> */}
-                            {/* </div> */}
-                        </div>
-                    </Col>
-                </Row>
+                    
+                        
+                    
+                
             </div>
         )
     }
