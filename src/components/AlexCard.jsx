@@ -16,12 +16,12 @@ class AlexCard extends React.Component{
         return(
             <div className="AlexCard">
                 <Row noGutters>
-                    <Col>
+                    
                         <div className="alex-hero-image chart-slide-in-right">
                             <img src={alexHeroImage} alt="Alexander Cheng"></img>
                             <p>alex picture</p>
                         </div>
-                    </Col>
+                    
                     <Col>
                         <div className="alex-Stats">
                             <p>alex stats</p>
