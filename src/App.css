@@ -197,7 +197,7 @@ light brown: #9b786f
   box-sizing: border-box;
   margin: auto;
   margin-left: 0%;
-  background: #faed26;
+  background: #faf286;
   z-index: -1;
   overflow: hidden;
   width: 70%;
@@ -212,7 +212,7 @@ light brown: #9b786f
   bottom: 0;
   right: 0;
   left: 0;  
-  background: #fff78d;
+  background: #fffddd;
   height: 100%;
   z-index: -2;  
 }
@@ -226,7 +226,7 @@ light brown: #9b786f
   box-sizing: border-box;
   margin: auto;
   margin-left: 0%;
-  background: #d1c522;
+  background: #faed26;
   z-index: -1;
   overflow: hidden;
   width: 30%;
