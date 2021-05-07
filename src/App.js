@@ -3,6 +3,7 @@ import LandingPage from "./components/LandingPage"
 import Navbar1 from "./components/NavBar1"
 import AboutMe from "./components/AboutMe"
 import AlexCard from "./components/AlexCard"
+import AlexGraph from "./components/AlexGraph"
 // import Projects from "./components/Projects"
 // import Blogs from "./components/Blogs"
 // import Footer from "./components/Footer"
@@ -15,12 +16,13 @@ function App() {
   return (
     
     <div className="App">      
-      <Container style={{padding:0}}>      
-        <Col style={{padding:0}}>
+      <Container style={{padding:0, margin:0}}>      
+        <Col style={{padding:0, margin:0}}>
           <LandingPage></LandingPage>
           <Navbar1></Navbar1>
           <AboutMe></AboutMe>
-          <AlexCard></AlexCard>       
+          <AlexCard></AlexCard>
+          <AlexGraph></AlexGraph>
           {/* <Projects></Projects> */}
           {/* <Blogs></Blogs> */}
           {/* <Footer></Footer> */}

@@ -1,5 +1,5 @@
 import React from "react"
-import {Row, Col} from "reactstrap"
+// import {Row, Col} from "reactstrap"
 
 import '../App.css'
 import alexHeroImage from "../pictures/alexpicSmallResized180by180.png"
