@@ -8,6 +8,8 @@ light brown: #9b786f
 */
 
 /* want to add yellow icon A in address bar */
+
+
 .about{
   font-size: 50px;
   font-weight: bold;
@@ -37,6 +39,7 @@ light brown: #9b786f
 
 .AlexCard{
   min-height: 100vh;
+  min-width: 320px;
   background-color: #d8d8d8;
 }
 
@@ -67,7 +70,8 @@ light brown: #9b786f
 
 .App {
   text-align: center;
-  width: 100vw;
+  min-width: 320px;
+  /* width: 100vw; */
   
   }
 
@@ -145,6 +149,157 @@ light brown: #9b786f
   color: white;
   font-weight: 900; 
 } 
+/* ****************** Graph starts here************** */
+
+.graph{
+  /* aka main */
+  font-size: 100%;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.graph .bar{
+  width: 90%;
+  
+}
+
+.graph .bar p{
+  color: #7d7d7d;;
+  font-weight: bold;
+  padding: 3px;
+  position: relative;
+  text-align: left;
+  box-sizing: border-box;
+  /* z-index: 2 because we want this to be on top */
+  z-index:4;
+  width: 100%;
+  overflow: hidden;  
+}
+
+.graph .bar span:nth-child(1){
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  margin: auto;
+  margin-left: 0%;
+  background: #faed26;
+  z-index: -1;
+  overflow: hidden;
+  width: 70%;
+  border-top-right-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  
+}
+
+.graph .bar span:nth-child(2){
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;  
+  background: #fff78d;
+  height: 100%;
+  z-index: -2;  
+}
+
+.graph .bar span:nth-child(3){
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  margin: auto;
+  margin-left: 0%;
+  background: #d1c522;
+  z-index: -1;
+  overflow: hidden;
+  width: 30%;
+  border-top-right-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  
+}
+
+.graph div.bar:nth-child(1) span:nth-child(1){
+  width: 80%
+}
+.graph div.bar:nth-child(2) span:nth-child(1){
+  width: 70%
+}
+.graph div.bar:nth-child(3) span:nth-child(1){
+  width: 75%
+}
+.graph div.bar:nth-child(4) span:nth-child(1){
+  width: 55%
+}
+.graph div.bar:nth-child(5) span:nth-child(1){
+  width: 50%
+}
+.graph div.bar:nth-child(6) span:nth-child(1){
+  width: 50%
+}
+.graph div.bar:nth-child(7) span:nth-child(1){
+  width: 55%
+}
+.graph div.bar:nth-child(8) span:nth-child(1){
+  width: 60%
+}
+
+
+
+/* .graph .bar span:nth-child(1) span:nth-child(2){ */
+  /* background: grey; */
+  /* width: 90%; */
+  /* we want 2nd span to be z-index 0 because that is behind everyhing */
+  /* z-index: 0; */
+/* } */
+
+/* .graph .progress{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  overflow: hidden;
+}
+
+.graph .whitespace{
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  width: 500px;
+  height: auto;
+} */
+
+/* ****************** Graph starts here************** */
+
+/* .main{
+  /* where the fuck does this go? */
+  /* overflow: hidden; */
+  /* position: relative; */
+  /* height: 100vh; */
+  /* width: 100vw; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+/* } */ 
 
 .highlight{
   font-size: 20px;  
@@ -176,8 +331,10 @@ light brown: #9b786f
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;    
-  min-width: 100vw;
-  min-height: 100vh;     
+  min-width: 320px;
+  min-height: 568px;     
+  
+  
   }
 
 .landingPage .content{
@@ -208,6 +365,7 @@ light brown: #9b786f
   font-size: 11px;
   color: #9e9e9e;
 }
+
 
 
 
