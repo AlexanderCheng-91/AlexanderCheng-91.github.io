@@ -29,7 +29,7 @@ class AlexCard extends React.Component{
                             <div className="alexCard-body">
                                 <p>
                                     I'm a full stack developer located in <br/>
-                                     Los Angeles, CA. I love to put a website together <br/>
+                                     Los Angeles, CA. I love putting websites together <br/>
                                       from the front end to the back end. <br/>
                                        My stack is React.js, C#, and SQL.<br/>
                                         Feel free to reach out!

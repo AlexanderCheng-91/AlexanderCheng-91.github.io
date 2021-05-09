@@ -61,6 +61,7 @@ light brown: #9b786f
 
 .alex-hero-image{
   align-items: center;
+  padding-top: 70px;
 }
 
 .alexPicture{
@@ -106,6 +107,13 @@ light brown: #9b786f
   background-color: #9d8d8f;
 }
 
+.carousel-item > img { 
+  width: 100%;  
+  height: 180px;
+}
+
+
+
 .demarcation{
     background: #909090;
     height: 4px;    
@@ -149,6 +157,10 @@ light brown: #9b786f
   color: white;
   font-weight: 900; 
 } 
+
+.fruitful-link{
+  color: #9e9e9e;
+}
 /* ****************** Graph starts here************** */
 
 .graph{
@@ -352,7 +364,16 @@ light brown: #9b786f
 
 .projects{
   min-height: 100vh;
-  background-color: #9b786f
+  background-color: #d8d8d8
+}
+
+.project-fruitful{
+  background-image: url(./pictures/FruitfulHealthWebsiteScreenshot.png) ;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;    
+  min-width: 320px;
+  min-height: 180px;  
 }
 
 .responsive-title{
