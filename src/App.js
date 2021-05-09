@@ -5,7 +5,7 @@ import AboutMe from "./components/AboutMe"
 import AlexCard from "./components/AlexCard"
 import AlexGraph from "./components/AlexGraph"
 import Projects from "./components/Projects"
-// import Blogs from "./components/Blogs"
+import Blogs from "./components/Blogs"
 // import Footer from "./components/Footer"
 
 
@@ -24,7 +24,7 @@ function App() {
           <AlexCard></AlexCard>
           <AlexGraph></AlexGraph>
           <Projects></Projects>
-          {/* <Blogs></Blogs> */}
+          <Blogs></Blogs>
           {/* <Footer></Footer> */}
         </Col>
       </Container>
