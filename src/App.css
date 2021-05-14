@@ -9,72 +9,70 @@ light brown: #9b786f
 
 /* want to add yellow icon A in address bar */
 
-
-.about{
-  font-size: 50px;
-  font-weight: bold;
-  padding-top: 70px;
-  color: #4e4e4e;
+.about {
+   font-size: 50px;
+   font-weight: bold;
+   padding-top: 70px;
+   color: #4e4e4e;
 }
 
-.about-me{
-  min-height: 100vh;
-  background-color: #ffffff;   
-  align-items: center;
-  font-family: 'Jim Sans Medium', Arial;
+.about-me {
+   min-height: 100vh;
+   background-color: #ffffff;
+   align-items: center;
+   font-family: 'Jim Sans Medium', Arial;
 }
 
-.about-me-Column{
-  display: flex;
-  flex-direction: column;
-  margin: 0%;
-  justify-content: center;
+.about-me-Column {
+   display: flex;
+   flex-direction: column;
+   margin: 0%;
+   justify-content: center;
 }
 
-.about-me-Rows{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+.about-me-Rows {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
 }
 
-.AlexCard{
-  min-height: 100vh;
-  min-width: 320px;
-  background-color: #d8d8d8;
+.AlexCard {
+   min-height: 100vh;
+   min-width: 320px;
+   background-color: #d8d8d8;
 }
 
-.alexCard-title{
-  font-size: 25px;
-  font-weight: bold;
-  color: #7d7d7d;
-  font-family: 'Jim Sans Medium', Arial;
+.alexCard-title {
+   font-size: 25px;
+   font-weight: bold;
+   color: #7d7d7d;
+   font-family: 'Jim Sans Medium', Arial;
 }
 
-.alexCard-body{
-  font-size: 11px;
-  color: #9e9e9e;
-  font-family: 'Jim Sans Medium', Arial;
+.alexCard-body {
+   font-size: 11px;
+   color: #9e9e9e;
+   font-family: 'Jim Sans Medium', Arial;
 
-  font-size: 11px;
-  color: #9e9e9e;
+   font-size: 11px;
+   color: #9e9e9e;
 }
 
-.alex-hero-image{
-  align-items: center;
-  padding-top: 70px;
+.alex-hero-image {
+   align-items: center;
+   padding-top: 70px;
 }
 
-.alexPicture{
-  height: 231 px;
-  width: 200px;
+.alexPicture {
+   height: 231 px;
+   width: 200px;
 }
 
 .App {
-  text-align: center;
-  min-width: 320px;
-  /* width: 100vw; */
-  
-  }
+   text-align: center;
+   min-width: 320px;
+   /* width: 100vw; */
+}
 
 /* .App-logo {
   height: 40vmin;
@@ -82,200 +80,210 @@ light brown: #9b786f
 } */
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+   .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+   background-color: #282c34;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+   color: #61dafb;
 }
 
-.blogs-gracieImage{
-    width:90%
+/* .blogs .Card{
+  
+  display: inline-block;
+} */
+
+.blog-template {
+   background-image: url(./pictures/BlogYellowBackgroundRotated.jpg);
+   background-size: repeat;
+   background-position: top;
+   padding-top: 70px;
 }
 
-.carousel-item > img { 
-  width: 100%;  
-  height: 180px;
+.blog-template .CardSubtitle .img {
+   padding-right: 10px;
 }
 
-.demarcation{
-    background: #909090;
-    height: 4px;    
-    width: 70px;
-    margin: auto;  
+CardText {
+   font-size: 50px;
 }
 
-.demarcation-padding{
-  margin: 25px 0 75px 0;
+.carousel-item > img {
+   width: 100%;
+   height: 180px;
 }
 
-.dynamic-title{
-  font-size: 19px;
-  font-weight: bold;
-  color: #7d7d7d;
+.demarcation {
+   background: #909090;
+   height: 4px;
+   width: 70px;
+   margin: auto;
 }
 
-.dynamic-text{
-  font-size: 11px;
-  color: #9e9e9e;
+.demarcation-padding {
+   margin: 25px 0 75px 0;
 }
 
-.fast-title{
-  font-size: 19px;
-  font-weight: bold;
-  color: #7d7d7d;
+.dynamic-title {
+   font-size: 19px;
+   font-weight: bold;
+   color: #7d7d7d;
 }
 
-.fast-text{
-  font-size: 11px;
-  color: #9e9e9e;
+.dynamic-text {
+   font-size: 11px;
+   color: #9e9e9e;
 }
 
-.footer{
-  min-height: 100vh;
-  background-color: #46344e;
+.fast-title {
+   font-size: 19px;
+   font-weight: bold;
+   color: #7d7d7d;
 }
 
-.font-white{
-  font-size: 20px;
-  color: white;
-  font-weight: 900; 
-} 
+.fast-text {
+   font-size: 11px;
+   color: #9e9e9e;
+}
 
-.fruitful-link{
-  color: #9e9e9e;
+.footer {
+   min-height: 100vh;
+   background-color: #46344e;
+}
+
+.font-white {
+   font-size: 20px;
+   color: white;
+   font-weight: 900;
+}
+
+.fruitful-link {
+   color: #9e9e9e;
 }
 /* ****************** Graph starts here************** */
 
-.graph{
-  /* aka main */
-  font-size: 100%;
-  font-family: sans-serif;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.graph {
+   /* aka main */
+   font-size: 100%;
+   font-family: sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 
-  overflow: hidden;
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  
-}
-
-.graph .bar{
-  width: 90%;
-  
+   overflow: hidden;
+   position: relative;
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 
-.graph .bar p{
-  color: #7d7d7d;;
-  font-weight: bold;
-  padding: 3px;
-  position: relative;
-  text-align: left;
-  box-sizing: border-box;
-  /* z-index: 2 because we want this to be on top */
-  z-index:4;
-  width: 100%;
-  overflow: hidden;  
+.graph .bar {
+   width: 90%;
 }
 
-.graph .bar span:nth-child(1){
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  box-sizing: border-box;
-  margin: auto;
-  margin-left: 0%;
-  background: #faf286;
-  z-index: -1;
-  overflow: hidden;
-  width: 70%;
-  border-top-right-radius: 2vh;
-  border-bottom-right-radius: 2vh;
-  
+.graph .bar p {
+   color: #7d7d7d;
+   font-weight: bold;
+   padding: 3px;
+   position: relative;
+   text-align: left;
+   box-sizing: border-box;
+   /* z-index: 2 because we want this to be on top */
+   z-index: 4;
+   width: 100%;
+   overflow: hidden;
 }
 
-.graph .bar span:nth-child(2){
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;  
-  background: #fffddd;
-  height: 100%;
-  z-index: -2;  
+.graph .bar span:nth-child(1) {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   box-sizing: border-box;
+   margin: auto;
+   margin-left: 0%;
+   background: #faf286;
+   z-index: -1;
+   overflow: hidden;
+   width: 70%;
+   border-top-right-radius: 2vh;
+   border-bottom-right-radius: 2vh;
 }
 
-.graph .bar span:nth-child(3){
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  box-sizing: border-box;
-  margin: auto;
-  margin-left: 0%;
-  background: #faed26;
-  z-index: -1;
-  overflow: hidden;
-  width: 30%;
-  border-top-right-radius: 2vh;
-  border-bottom-right-radius: 2vh;
-  
+.graph .bar span:nth-child(2) {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   background: #fffddd;
+   height: 100%;
+   z-index: -2;
 }
 
-.graph div.bar:nth-child(1) span:nth-child(1){
-  width: 80%
-}
-.graph div.bar:nth-child(2) span:nth-child(1){
-  width: 70%
-}
-.graph div.bar:nth-child(3) span:nth-child(1){
-  width: 75%
-}
-.graph div.bar:nth-child(4) span:nth-child(1){
-  width: 55%
-}
-.graph div.bar:nth-child(5) span:nth-child(1){
-  width: 50%
-}
-.graph div.bar:nth-child(6) span:nth-child(1){
-  width: 50%
-}
-.graph div.bar:nth-child(7) span:nth-child(1){
-  width: 55%
-}
-.graph div.bar:nth-child(8) span:nth-child(1){
-  width: 60%
+.graph .bar span:nth-child(3) {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   box-sizing: border-box;
+   margin: auto;
+   margin-left: 0%;
+   background: #faed26;
+   z-index: -1;
+   overflow: hidden;
+   width: 30%;
+   border-top-right-radius: 2vh;
+   border-bottom-right-radius: 2vh;
 }
 
-
+.graph div.bar:nth-child(1) span:nth-child(1) {
+   width: 80%;
+}
+.graph div.bar:nth-child(2) span:nth-child(1) {
+   width: 70%;
+}
+.graph div.bar:nth-child(3) span:nth-child(1) {
+   width: 75%;
+}
+.graph div.bar:nth-child(4) span:nth-child(1) {
+   width: 55%;
+}
+.graph div.bar:nth-child(5) span:nth-child(1) {
+   width: 50%;
+}
+.graph div.bar:nth-child(6) span:nth-child(1) {
+   width: 50%;
+}
+.graph div.bar:nth-child(7) span:nth-child(1) {
+   width: 55%;
+}
+.graph div.bar:nth-child(8) span:nth-child(1) {
+   width: 60%;
+}
 
 /* .graph .bar span:nth-child(1) span:nth-child(2){ */
-  /* background: grey; */
-  /* width: 90%; */
-  /* we want 2nd span to be z-index 0 because that is behind everyhing */
-  /* z-index: 0; */
+/* background: grey; */
+/* width: 90%; */
+/* we want 2nd span to be z-index 0 because that is behind everyhing */
+/* z-index: 0; */
 /* } */
 
 /* .graph .progress{
@@ -301,30 +309,30 @@ light brown: #9b786f
 
 /* .main{
   /* where the fuck does this go? */
-  /* overflow: hidden; */
-  /* position: relative; */
-  /* height: 100vh; */
-  /* width: 100vw; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-/* } */ 
+/* overflow: hidden; */
+/* position: relative; */
+/* height: 100vh; */
+/* width: 100vw; */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* } */
 
-.highlight{
-  font-size: 20px;  
-  font-weight: 900;
-  color: #faed26;  
+.highlight {
+   font-size: 20px;
+   font-weight: 900;
+   color: #faed26;
 }
 
-.intuitive-title{
-  font-size: 19px;
-  font-weight: bold;
-  color: #7d7d7d;
+.intuitive-title {
+   font-size: 19px;
+   font-weight: bold;
+   color: #7d7d7d;
 }
 
-.intuitive-text{
-  font-size: 11px;
-  color: #9e9e9e;
+.intuitive-text {
+   font-size: 11px;
+   color: #9e9e9e;
 }
 /* @keyframes App-logo-spin {
   from {
@@ -335,55 +343,77 @@ light brown: #9b786f
   }
 } */
 
-.landingPage{
-  background-image: url(./pictures/coffeeScaled3.gif) ;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;    
-  min-width: 320px;
-  min-height: 568px;     
-  
-  
-  }
-
-.landingPage .content{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 100px; 
+.landingPage {
+   background-image: url(./pictures/coffeeScaled3.gif);
+   background-size: cover;
+   background-position: top;
+   background-repeat: no-repeat;
+   min-width: 320px;
+   min-height: 568px;
 }
 
-.navbar-bottom-border{
-  border-bottom: solid;
-  border-color: yellow;
+.landingPage .content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 100px;
 }
 
-.projects{
-  min-height: 100vh;
-  background-color: #d8d8d8
+.mb-2.text-muted img {
+   padding-right: 5px;
 }
 
-.project-fruitful{
-  background-image: url(./pictures/FruitfulHealthWebsiteScreenshot.png) ;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;    
-  min-width: 320px;
-  min-height: 180px;  
+.navbar-bottom-border {
+   border-bottom: solid;
+   border-color: yellow;
 }
 
-.responsive-title{
-  font-size: 19px;
-  font-weight: bold;
-  color: #7d7d7d;
+.chat {
+   background-color: rgb(37, 37, 37);
+   padding: 10px 10px 10px 10px;
+   border-radius: 15px 15px 15px 15px;
 }
 
-.responsive-text{
-  font-size: 11px;
-  color: #9e9e9e;
+.chat .me {
+   background-color: #9a9a10;
+   color: white;
+   text-align: left;
+   border-radius: 15px 15px 15px 0;
+   padding-left: 4px;
+   margin-right: 20px;
 }
 
+.chat .client {
+   background-color: grey;
+   color: white;
+   text-align: right;
+   border-radius: 15px 15px 0 15px;
+   padding-right: 4px;
+   margin-left: 20px;
+}
 
+.projects {
+   min-height: 100vh;
+   background-color: #d8d8d8;
+}
 
+.project-fruitful {
+   background-image: url(./pictures/FruitfulHealthWebsiteScreenshot.png);
+   background-size: cover;
+   background-position: top;
+   background-repeat: no-repeat;
+   min-width: 320px;
+   min-height: 180px;
+}
 
+.responsive-title {
+   font-size: 19px;
+   font-weight: bold;
+   color: #7d7d7d;
+}
+
+.responsive-text {
+   font-size: 11px;
+   color: #9e9e9e;
+}
