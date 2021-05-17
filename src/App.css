@@ -79,11 +79,11 @@ light brown: #9b786f
   pointer-events: none;
 } */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
    .App-logo {
       animation: App-logo-spin infinite 20s linear;
    }
-}
+} */
 
 .App-header {
    background-color: #282c34;
@@ -100,11 +100,6 @@ light brown: #9b786f
    color: #61dafb;
 }
 
-/* .blogs .Card{
-  
-  display: inline-block;
-} */
-
 .blog-template {
    background-image: url(./pictures/BlogYellowBackgroundRotated.jpg);
    background-size: repeat;
@@ -116,15 +111,33 @@ light brown: #9b786f
    padding-right: 10px;
 }
 
-CardText {
-   font-size: 50px;
-}
-
 .carousel-item > img {
    width: 100%;
    height: 180px;
 }
+.chat {
+   background-color: rgb(37, 37, 37);
+   padding: 10px 10px 10px 10px;
+   border-radius: 15px 15px 15px 15px;
+}
 
+.chat .me {
+   background-color: #9a9a10;
+   color: white;
+   text-align: left;
+   border-radius: 15px 15px 15px 0;
+   padding-left: 4px;
+   margin-right: 20px;
+}
+
+.chat .client {
+   background-color: grey;
+   color: white;
+   text-align: right;
+   border-radius: 15px 15px 0 15px;
+   padding-right: 4px;
+   margin-left: 20px;
+}
 .demarcation {
    background: #909090;
    height: 4px;
@@ -160,7 +173,20 @@ CardText {
 
 .footer {
    min-height: 100vh;
-   background-color: #46344e;
+   background-color: #9d8d8f;
+
+   /* yellow: #faed26
+   dark grey: #46344e
+   grey: #5a5560
+   beige: #9d8d8f
+   light brown: #9b786f */
+}
+
+.footer-title {
+   font-size: 50px;
+   font-weight: bold;
+   padding-top: 70px;
+   color: #ffffff;
 }
 
 .font-white {
@@ -369,30 +395,6 @@ CardText {
    border-color: yellow;
 }
 
-.chat {
-   background-color: rgb(37, 37, 37);
-   padding: 10px 10px 10px 10px;
-   border-radius: 15px 15px 15px 15px;
-}
-
-.chat .me {
-   background-color: #9a9a10;
-   color: white;
-   text-align: left;
-   border-radius: 15px 15px 15px 0;
-   padding-left: 4px;
-   margin-right: 20px;
-}
-
-.chat .client {
-   background-color: grey;
-   color: white;
-   text-align: right;
-   border-radius: 15px 15px 0 15px;
-   padding-right: 4px;
-   margin-left: 20px;
-}
-
 .projects {
    min-height: 100vh;
    background-color: #d8d8d8;
@@ -416,4 +418,15 @@ CardText {
 .responsive-text {
    font-size: 11px;
    color: #9e9e9e;
+}
+
+.white-demarcation {
+   background: #ffffff;
+   height: 4px;
+   width: 70px;
+   margin: auto;
+}
+
+.white-demarcation-padding {
+   margin: 25px 0 75px 0;
 }

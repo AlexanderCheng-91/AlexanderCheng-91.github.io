@@ -12,7 +12,7 @@ import Blogs from './components/Blogs';
 import BlogGracie from './components/BlogGracie';
 import BlogDayInTheLife from './components/BlogDayInTheLife';
 import BlogCareer from './components/BlogCareer';
-// import Footer from "./components/Footer"
+import Footer from './components/Footer';
 
 import { Col, Container } from 'reactstrap';
 
@@ -41,13 +41,8 @@ function App() {
                      <AlexGraph></AlexGraph>
                      <Projects></Projects>
                      <Blogs></Blogs>
-                     {/* <BlogCareer></BlogCareer> */}
+                     <Footer></Footer>
                   </Route>
-
-                  {/* <BlogGracie></BlogGracie> */}
-
-                  {/* <BlogDayInTheLife></BlogDayInTheLife> */}
-                  {/* <Footer></Footer> */}
                </Switch>
             </Col>
          </Container>
