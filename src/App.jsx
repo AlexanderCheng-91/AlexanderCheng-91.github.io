@@ -21,8 +21,8 @@ import { Route, Switch, withRouter } from 'react-router-dom';
 function App() {
    return (
       <div className="App">
-         <Container style={{ padding: 0, margin: 0 }}>
-            <Col style={{ padding: 0, margin: 0 }}>
+         <Container fluid style={{ padding: 0 }}>
+            <Col style={{ padding: 0 }}>
                <Switch>
                   <Route exact path="/gracie">
                      <BlogGracie></BlogGracie>

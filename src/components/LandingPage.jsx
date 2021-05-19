@@ -7,7 +7,7 @@ import { Row } from 'reactstrap';
 class LandingPage extends React.Component {
    render() {
       return (
-         <Row style={{ padding: 0, margin: 0 }}>
+         <Row style={{ margin: 0 }}>
             <div className="landingPage">
                <div className="landingPage content">
                   <div className="font-white">Hello, my name is</div>

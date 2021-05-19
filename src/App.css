@@ -138,6 +138,7 @@ light brown: #9b786f
    padding-right: 4px;
    margin-left: 20px;
 }
+
 .demarcation {
    background: #909090;
    height: 4px;
@@ -201,7 +202,6 @@ light brown: #9b786f
 /* ****************** Graph starts here************** */
 
 .graph {
-   /* aka main */
    font-size: 100%;
    font-family: sans-serif;
    padding: 0;
@@ -210,8 +210,9 @@ light brown: #9b786f
 
    overflow: hidden;
    position: relative;
-   height: 100vh;
-   width: 100vw;
+   min-height: 100vh;
+   min-width: 320px;
+
    display: flex;
    justify-content: center;
    align-items: center;
@@ -229,7 +230,7 @@ light brown: #9b786f
    position: relative;
    text-align: left;
    box-sizing: border-box;
-   /* z-index: 2 because we want this to be on top */
+   /* z-index: 4 because we want this to be on top */
    z-index: 4;
    width: 100%;
    overflow: hidden;
@@ -304,45 +305,6 @@ light brown: #9b786f
 .graph div.bar:nth-child(8) span:nth-child(1) {
    width: 60%;
 }
-
-/* .graph .bar span:nth-child(1) span:nth-child(2){ */
-/* background: grey; */
-/* width: 90%; */
-/* we want 2nd span to be z-index 0 because that is behind everyhing */
-/* z-index: 0; */
-/* } */
-
-/* .graph .progress{
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  background-color: black;
-  overflow: hidden;
-}
-
-.graph .whitespace{
-  background-color: black;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-
-  width: 500px;
-  height: auto;
-} */
-
-/* ****************** Graph starts here************** */
-
-/* .main{
-  /* where the fuck does this go? */
-/* overflow: hidden; */
-/* position: relative; */
-/* height: 100vh; */
-/* width: 100vw; */
-/* display: flex; */
-/* justify-content: center; */
-/* align-items: center; */
-/* } */
 
 .highlight {
    font-size: 20px;
