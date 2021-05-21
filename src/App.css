@@ -18,39 +18,36 @@ light brown: #9b786f
 
 .about-me {
    min-height: 100vh;
-   background-color: #ffffff;
    align-items: center;
    font-family: 'Jim Sans Medium', Arial;
 }
 
-.about-me-Column {
+/* .about-me-Column {
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    margin: 0%;
    justify-content: center;
-}
+} */
 
 .about-me-Rows {
    display: flex;
    flex-direction: row;
    align-items: flex-start;
+   justify-content: space-evenly;
 }
 
 .AlexCard {
-   min-height: 100vh;
+   padding: 70px 0px 70px 0px;
    min-width: 320px;
-   background-color: #d8d8d8;
 }
 
 .alexCard-title {
-   font-size: 25px;
    font-weight: bold;
    color: #7d7d7d;
    font-family: 'Jim Sans Medium', Arial;
 }
 
 .alexCard-body {
-   font-size: 11px;
    color: #9e9e9e;
    font-family: 'Jim Sans Medium', Arial;
 
@@ -60,7 +57,6 @@ light brown: #9b786f
 
 .alex-hero-image {
    align-items: center;
-   padding-top: 70px;
 }
 
 .alexPicture {
@@ -71,7 +67,6 @@ light brown: #9b786f
 .App {
    text-align: center;
    min-width: 320px;
-   /* width: 100vw; */
 }
 
 /* .App-logo {
@@ -79,11 +74,73 @@ light brown: #9b786f
   pointer-events: none;
 } */
 
-/* @media (prefers-reduced-motion: no-preference) {
-   .App-logo {
-      animation: App-logo-spin infinite 20s linear;
+@media screen and (min-width: 601px) {
+   .fast-text,
+   .intuitive-text,
+   .responsive-text,
+   .dynamic-text,
+   .alexCard-body {
+      font-size: 20px;
    }
-} */
+
+   .fast-title,
+   .intuitive-title,
+   .responsive-title,
+   .dynamic-title,
+   .alexCard-title,
+   .font-white,
+   .highlight {
+      font-size: 30px;
+   }
+
+   .landingPage {
+      background-image: url(./pictures/fountain.gif);
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      min-width: 1024px;
+      min-height: 100vh;
+      width: 100vw;
+   }
+
+   .blog-row {
+      align-items: stretch;
+   }
+
+   .blog-row .card {
+      max-width: 30%;
+   }
+
+   Form {
+      min-width: 400px;
+   }
+}
+
+@media screen and (max-width: 601px) {
+   .landingPage {
+      background-image: url(./pictures/coffeeScaled3.gif);
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      min-width: 320px;
+      min-height: 568px;
+      width: 100vw;
+      height: 100vh;
+   }
+
+   .font-white,
+   .highlight {
+      font-size: 20px;
+   }
+
+   Form {
+      min-width: 275px;
+   }
+
+   .blog-row {
+      align-items: center;
+   }
+}
 
 .App-header {
    background-color: #282c34;
@@ -100,6 +157,10 @@ light brown: #9b786f
    color: #61dafb;
 }
 
+.blog-row {
+   justify-content: center;
+}
+
 .blog-template {
    background-image: url(./pictures/BlogYellowBackgroundRotated.jpg);
    background-size: repeat;
@@ -113,7 +174,7 @@ light brown: #9b786f
 
 .carousel-item > img {
    width: 100%;
-   height: 180px;
+   height: auto;
 }
 .chat {
    background-color: rgb(37, 37, 37);
@@ -139,6 +200,10 @@ light brown: #9b786f
    margin-left: 20px;
 }
 
+.contactForm-wrapper {
+   display: flex;
+   justify-content: center;
+}
 .demarcation {
    background: #909090;
    height: 4px;
@@ -150,48 +215,58 @@ light brown: #9b786f
    margin: 25px 0 75px 0;
 }
 
+.dynamic-card {
+   padding: 0px 5px 0px 5px;
+   width: 138px;
+}
+
 .dynamic-title {
-   font-size: 19px;
    font-weight: bold;
    color: #7d7d7d;
 }
 
 .dynamic-text {
-   font-size: 11px;
    color: #9e9e9e;
 }
 
+.fast-card {
+   padding: 0px 5px 0px 5px;
+}
+
 .fast-title {
-   font-size: 19px;
    font-weight: bold;
    color: #7d7d7d;
 }
 
 .fast-text {
-   font-size: 11px;
    color: #9e9e9e;
+}
+
+.fast-image {
+   max-width: 100%;
+   width: auto;
+   height: auto;
 }
 
 .footer {
    min-height: 100vh;
-   background-color: #9d8d8f;
-
-   /* yellow: #faed26
-   dark grey: #46344e
-   grey: #5a5560
-   beige: #9d8d8f
-   light brown: #9b786f */
+   padding: 0px 20px 0px 20px;
 }
 
 .footer-title {
    font-size: 50px;
    font-weight: bold;
    padding-top: 70px;
-   color: #ffffff;
+   color: #faed26;
+}
+
+.footer-wrapper {
+   background-color: #9d8d8f;
+   padding-bottom: 20px;
+   border-radius: 30px 30px 30px 30px;
 }
 
 .font-white {
-   font-size: 20px;
    color: white;
    font-weight: 900;
 }
@@ -199,7 +274,6 @@ light brown: #9b786f
 .fruitful-link {
    color: #9e9e9e;
 }
-/* ****************** Graph starts here************** */
 
 .graph {
    font-size: 100%;
@@ -207,12 +281,9 @@ light brown: #9b786f
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-
    overflow: hidden;
    position: relative;
-   min-height: 100vh;
    min-width: 320px;
-
    display: flex;
    justify-content: center;
    align-items: center;
@@ -307,19 +378,20 @@ light brown: #9b786f
 }
 
 .highlight {
-   font-size: 20px;
    font-weight: 900;
    color: #faed26;
 }
-
+.intuitive-card {
+   padding: 0px 5px 0px 5px;
+   width: 138px;
+}
 .intuitive-title {
-   font-size: 19px;
    font-weight: bold;
    color: #7d7d7d;
 }
 
 .intuitive-text {
-   font-size: 11px;
+   word-wrap: break-word;
    color: #9e9e9e;
 }
 /* @keyframes App-logo-spin {
@@ -330,15 +402,6 @@ light brown: #9b786f
     transform: rotate(360deg);
   }
 } */
-
-.landingPage {
-   background-image: url(./pictures/coffeeScaled3.gif);
-   background-size: cover;
-   background-position: top;
-   background-repeat: no-repeat;
-   min-width: 320px;
-   min-height: 568px;
-}
 
 .landingPage .content {
    display: flex;
@@ -360,6 +423,16 @@ light brown: #9b786f
 .projects {
    min-height: 100vh;
    background-color: #d8d8d8;
+   padding: 0px 20px 0px 20px;
+   padding-bottom: 70px;
+   border-radius: 30px 30px 30px 30px;
+}
+
+.projects-title {
+   font-size: 50px;
+   font-weight: bold;
+   padding-top: 70px;
+   color: #4e4e4e;
 }
 
 .project-fruitful {
@@ -371,14 +444,17 @@ light brown: #9b786f
    min-height: 180px;
 }
 
+.responsive-card {
+   padding: 0px 5px 0px 5px;
+   width: 138px;
+}
+
 .responsive-title {
-   font-size: 19px;
    font-weight: bold;
    color: #7d7d7d;
 }
 
 .responsive-text {
-   font-size: 11px;
    color: #9e9e9e;
 }
 

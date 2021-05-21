@@ -56,7 +56,7 @@ const Projects = props => {
 
    return (
       <div className="projects">
-         <div className="about">Projects</div>
+         <div className="projects-title">Projects</div>
          <div className="demarcation-padding">
             <div className="demarcation"></div>
          </div>
