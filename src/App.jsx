@@ -4,8 +4,8 @@ import './App.css';
 import LandingPage from './components/LandingPage';
 import Navbar1 from './components/NavBar1';
 import AboutMe from './components/AboutMe';
-import AlexCard from './components/AlexCard';
-import AlexGraph from './components/AlexGraph';
+// import AlexCard from './components/AlexCard';
+// import AlexGraph from './components/AlexGraph';
 import Projects from './components/Projects';
 import Blogs from './components/Blogs';
 // want to route to a "different page" for gracie blog
@@ -33,12 +33,15 @@ function App() {
                   <Route exact path="/career">
                      <BlogCareer></BlogCareer>
                   </Route>
+                  <Route exact path="/blogs">
+                     <Blogs></Blogs>
+                  </Route>
                   <Route exact path="/">
                      <LandingPage></LandingPage>
                      <Navbar1></Navbar1>
                      <AboutMe></AboutMe>
-                     <AlexCard></AlexCard>
-                     <AlexGraph></AlexGraph>
+                     {/* <AlexCard></AlexCard> */}
+                     {/* <AlexGraph></AlexGraph> */}
                      <Projects></Projects>
                      <Blogs></Blogs>
                      <Footer></Footer>

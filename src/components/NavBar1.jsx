@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 
+import { Link } from 'react-router-dom';
+
 import {
    Collapse,
    Navbar,
    NavbarToggler,
    NavbarBrand,
+
    // Nav, what does Nav do?
    // NavItem,
    NavLink,
@@ -27,7 +30,7 @@ const NavBar1 = props => {
    return (
       <div className="navbar-bottom-border sticky-top">
          <Navbar color="dark" dark expand="md">
-            <NavbarBrand href="/">
+            <NavbarBrand href="/" style={{ paddingLeft: 5 }}>
                <img src={brandPicture} alt="a pic"></img>
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
@@ -43,8 +46,10 @@ const NavBar1 = props => {
                   </NavLink>
                </div>
                <div className="blogIconPicture-listed-element">
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
-                     <img src={blogIconPicture} alt="blogIcon pic"></img>
+                  <NavLink>
+                     <Link to="/blogs">
+                        <img src={blogIconPicture} alt="blogIcon pic"></img>
+                     </Link>
                   </NavLink>
                </div>
             </Collapse>
