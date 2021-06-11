@@ -15,7 +15,7 @@ class AboutMe extends React.Component {
    render() {
       return (
          <div className="about-me">
-            <div className="about">ABOUT</div>
+            <div className="about">ABOUT!</div>
             <div className="demarcation-padding">
                <div className="demarcation"></div>
             </div>
