@@ -31,7 +31,7 @@ const NavBar1 = props => {
    return (
       <div className="navbar-bottom-border sticky-top">
          <Navbar color="dark" dark expand="md">
-            <NavbarBrand href="/" style={{ paddingLeft: 5 }}>
+            <NavbarBrand href="https://alexandercheng-91.github.io/about-me3/#/" style={{ paddingLeft: 5 }}>
                <img
                   src={a2BackgroundRemoved}
                   alt="an icon of the lowercase letter a"

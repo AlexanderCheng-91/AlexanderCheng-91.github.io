@@ -48,7 +48,7 @@ const Projects = props => {
             key={item.src}
             href={item.href}
          >
-            <img src={item.src} alt={item.altText} />
+            <img src={item.src} alt={item.altText} style={{ maxWidth: 800, maxHeight: 406.74 }} />
             <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
          </CarouselItem>
       );
@@ -60,9 +60,6 @@ const Projects = props => {
          <div className="demarcation-padding">
             <div className="demarcation"></div>
          </div>
-         <a href="https://bodyworkbooker.azurewebsites.net/" className="fruitful-link">
-            Fruitful Health app:
-         </a>
 
          <Carousel activeIndex={activeIndex} next={next} previous={previous}>
             <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />

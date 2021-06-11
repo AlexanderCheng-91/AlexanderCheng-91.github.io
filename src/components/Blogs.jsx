@@ -19,7 +19,7 @@ class Blogs extends React.Component {
                <div className="demarcation"></div>
             </div>
             <Row className="blog-row" lg={3} sm={1} no noGutters>
-               <Card style={{ marginLeft: 10, marginRight: 10, marginTop: 10, marginBottom: 10 }}>
+               <Card style={{ marginLeft: 20, marginRight: 20, marginTop: 20, marginBottom: 20 }}>
                   <CardImg src={gracie} alt="white dog" style={{ height: '55%' }} />
                   <CardBody>
                      <CardTitle tag="h5">I Love My Dog</CardTitle>
@@ -37,7 +37,7 @@ class Blogs extends React.Component {
                   </CardBody>
                </Card>
 
-               <Card style={{ marginLeft: 10, marginRight: 10, marginTop: 10, marginBottom: 10 }}>
+               <Card style={{ marginLeft: 20, marginRight: 20, marginTop: 20, marginBottom: 20 }}>
                   <CardImg top width="100%" src={dogGroomer} alt="white dog" style={{ height: '55%' }} />
                   <CardBody>
                      <CardTitle tag="h5">A Day In The Life</CardTitle>
@@ -51,7 +51,7 @@ class Blogs extends React.Component {
                   </CardBody>
                </Card>
 
-               <Card style={{ marginLeft: 10, marginRight: 10, marginTop: 10, marginBottom: 10 }}>
+               <Card style={{ marginLeft: 20, marginRight: 20, marginTop: 20, marginBottom: 20 }}>
                   <CardImg top width="100%" src={careerChange} alt="white dog" style={{ height: '55%' }} />
                   <CardBody>
                      <CardTitle tag="h5">My Career</CardTitle>
