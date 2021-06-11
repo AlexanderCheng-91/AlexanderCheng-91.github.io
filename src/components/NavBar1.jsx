@@ -17,10 +17,11 @@ import {
    // DropdownItem,
    // NavbarText
 } from 'reactstrap';
-import brandPicture from '../pictures/icons/a3-removebg-preview.png';
-import githubPicture from '../pictures/icons/githubIconScaled.png';
-import blogIconPicture from '../pictures/icons/blogIconScaled.png';
-import linkedInIcon from '../pictures/icons/linkedInIconScaled.png';
+
+import a2BackgroundRemoved from '../pictures/icons/a2BackgroundRemoved2.png';
+import githubPicture from '../pictures/icons/github.svg';
+import blogIconPicture from '../pictures/icons/blogger.svg';
+import linkedInIcon from '../pictures/icons/linkedin.svg';
 
 const NavBar1 = props => {
    const [isOpen, setIsOpen] = useState(false);
@@ -31,24 +32,40 @@ const NavBar1 = props => {
       <div className="navbar-bottom-border sticky-top">
          <Navbar color="dark" dark expand="md">
             <NavbarBrand href="/" style={{ paddingLeft: 5 }}>
-               <img src={brandPicture} alt="a pic"></img>
+               <img
+                  src={a2BackgroundRemoved}
+                  alt="an icon of the lowercase letter a"
+                  style={{ width: 30, height: 30 }}
+               ></img>
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                <div className="linkedInIcon-listed-element">
                   <NavLink href="https://www.linkedin.com/in/alexander-cheng-90368255/">
-                     <img src={linkedInIcon} alt="linkedInIcon pic"></img>
+                     <img
+                        src={linkedInIcon}
+                        alt="linkedInIcon pic Icons made by Pixel perfect https://www.flaticon.com/authors/pixel-perfect"
+                        style={{ width: 30, height: 30 }}
+                     ></img>
                   </NavLink>
                </div>
                <div className="githubPicture-listed-element">
                   <NavLink href="https://github.com/AlexanderCheng-91">
-                     <img src={githubPicture} alt="github pic"></img>
+                     <img
+                        src={githubPicture}
+                        alt="github pic Icons made by Pixel perfect https://www.flaticon.com/authors/pixel-perfect"
+                        style={{ width: 30, height: 30 }}
+                     ></img>
                   </NavLink>
                </div>
                <div className="blogIconPicture-listed-element">
                   <NavLink>
                      <Link to="/blogs">
-                        <img src={blogIconPicture} alt="blogIcon pic"></img>
+                        <img
+                           src={blogIconPicture}
+                           alt="blogIcon pic Icons made by Pixel perfect https://www.flaticon.com/authors/pixel-perfect"
+                           style={{ width: 30, height: 30 }}
+                        ></img>
                      </Link>
                   </NavLink>
                </div>
