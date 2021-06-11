@@ -6,7 +6,8 @@ import Fast from '../pictures/icons/FlashChosen1.png';
 import Intuitive from '../pictures/icons/IdeaChosen1.png';
 import Responsive from '../pictures/icons/ResponsiveChosen1.png';
 
-import alexHeroImage from '../pictures/alexpicSmallResized180by180.png';
+// import alexHeroImage from '../pictures/alexpicSmallResized180by180.png';
+import alexHeroImage from '../pictures/alexpic3.png';
 
 import { Row } from 'reactstrap';
 

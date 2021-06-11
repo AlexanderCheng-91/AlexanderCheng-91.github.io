@@ -415,6 +415,10 @@ light brown: #9b786f
    padding-right: 5px;
 }
 
+.NavbarBrand img {
+   max-width: 30px;
+}
+
 .navbar-bottom-border {
    border-bottom: solid;
    border-color: yellow;
