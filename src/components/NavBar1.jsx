@@ -18,7 +18,7 @@ import {
    // NavbarText
 } from 'reactstrap';
 
-import a2BackgroundRemoved from '../pictures/icons/a2BackgroundRemoved2.png';
+import a2BackgroundRemoved from '../pictures/icons/brandImage.svg';
 import githubPicture from '../pictures/icons/github.svg';
 import blogIconPicture from '../pictures/icons/blogger.svg';
 import linkedInIcon from '../pictures/icons/linkedin.svg';

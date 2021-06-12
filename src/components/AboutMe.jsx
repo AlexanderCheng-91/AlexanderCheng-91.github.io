@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
 
-import Dynamic from '../pictures/icons/SettingsChosen1.png';
-import Fast from '../pictures/icons/FlashChosen1.png';
-import Intuitive from '../pictures/icons/IdeaChosen1.png';
-import Responsive from '../pictures/icons/ResponsiveChosen1.png';
+import Dynamic from '../pictures/icons/dynamic.svg';
+import Fast from '../pictures/icons/fast.svg';
+import Intuitive from '../pictures/icons/intuitive.svg';
+import Responsive from '../pictures/icons/responsive.svg';
 
 // import alexHeroImage from '../pictures/alexpicSmallResized180by180.png';
 import alexHeroImage from '../pictures/alexpic3.png';
@@ -27,7 +27,7 @@ class AboutMe extends React.Component {
 
                <div className="fast-card">
                   <div className="fast-image">
-                     <img src={Fast} alt="lightning bolt"></img>
+                     <img src={Fast} className="icon" alt="lightning bolt"></img>
                   </div>
                   <div className="fast-title">
                      <p>Fast</p>
@@ -43,7 +43,7 @@ class AboutMe extends React.Component {
 
                <div className="intuitive-card">
                   <div className="fast-intuitive">
-                     <img src={Intuitive} alt="phone in front of a monitor"></img>
+                     <img src={Intuitive} className="icon" alt="phone in front of a monitor"></img>
                   </div>
                   <div className="intuitive-title">
                      <p>Intuitive</p>
@@ -55,7 +55,7 @@ class AboutMe extends React.Component {
 
                <div className="responsive-card">
                   <div>
-                     <img src={Responsive} alt="lightning bolt"></img>
+                     <img src={Responsive} className="icon" alt="lightning bolt"></img>
                   </div>
                   <div className="responsive-title">
                      <p>Responsive</p>
@@ -67,7 +67,7 @@ class AboutMe extends React.Component {
 
                <div className="dynamic-card">
                   <div>
-                     <img src={Dynamic} alt="phone in front of a monitor"></img>
+                     <img src={Dynamic} className="icon" alt="phone in front of a monitor"></img>
                   </div>
                   <div className="dynamic-title">
                      <p>Dynamic</p>
