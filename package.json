@@ -1,5 +1,5 @@
 {
-   "homepage": "https://AlexanderCheng-91.github.io/about-me3",
+   "homepage": "achengster4.com",
    "name": "about-me3",
    "version": "0.1.0",
    "private": true,
@@ -45,7 +45,7 @@
       ]
    },
    "devDependencies": {
-      "gh-pages": "^3.2.0",
+      "gh-pages": "^3.2.3",
       "prettier": "^2.3.0"
    }
 }
