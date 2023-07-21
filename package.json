@@ -1,5 +1,5 @@
 {
-   "homepage": "achengster4.com",
+   "homepage": ".",
    "name": "about-me3",
    "version": "0.1.0",
    "private": true,
@@ -11,7 +11,7 @@
       "react": "^17.0.2",
       "react-dom": "^17.0.2",
       "react-in-viewport": "^1.0.0-alpha.16",
-      "react-router-dom": "^5.2.0",
+      "react-router-dom": "^5.3.4",
       "react-scripts": "4.0.3",
       "react-spring": "^9.1.2",
       "reactstrap": "^8.9.0",
