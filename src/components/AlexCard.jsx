@@ -2,7 +2,8 @@ import React from 'react';
 // import {Row, Col} from "reactstrap"
 
 import '../App.css';
-import alexHeroImage from '../pictures/alexpicSmallResized180by180.png';
+// import alexHeroImage from '../pictures/icons/';
+//why can't i find the picture?
 
 class AlexCard extends React.Component {
    //                          <div class="flex flex-50-gt-sm waypoint bars-wrap animated slide-in-right" data-animation="slide-in-right">
@@ -19,7 +20,7 @@ class AlexCard extends React.Component {
             {/* try to mess with rows and col or picture size */}
 
             <div className="alex-hero-image chart-slide-in-right">
-               <img src={alexHeroImage} className="alexPicture" alt="Alexander Cheng"></img>
+               {/* <img src={alexHeroImage} className="alexPicture" alt="Alexander Cheng"></img> */}
                <div className="alexCard-title">
                   <p>Who am I?</p>
                </div>
