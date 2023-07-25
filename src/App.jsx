@@ -12,10 +12,6 @@ import BlogDayInTheLife from './components/BlogDayInTheLife';
 import BlogCareer from './components/BlogCareer';
 import Footer from './components/Footer';
 
-//forgot why I commented this out
-import AlexCard from './components/AlexCard';
-import AlexGraph from './components/AlexGraph';
-
 // commented out the cauousel
 import Projects from './components/Projects';
 
