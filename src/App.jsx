@@ -5,6 +5,7 @@ import React from 'react';
 
 import LandingPage from './components/LandingPage';
 import Navbar1 from './components/NavBar1';
+import NavBar2 from './components/NavBar2';
 import AboutMe from './components/AboutMe';
 import Blogs from './components/Blogs';
 import BlogGracie from './components/BlogGracie';
@@ -42,7 +43,8 @@ function App() {
                   </Route>
                   <Route exact path="/">
                      <LandingPage></LandingPage>
-                     <Navbar1></Navbar1>
+                     {/* <Navbar1></Navbar1> */}
+                     <NavBar2></NavBar2>
                      <AboutMe></AboutMe>
 
                      <Projects></Projects>
