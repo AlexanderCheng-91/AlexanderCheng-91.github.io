@@ -1,6 +1,6 @@
 import React from 'react';
-// import ContactForm from './ContactForm';
-import ContactForm2 from './ContactForm2';
+import ContactForm from './ContactForm';
+
 
 class Footer extends React.Component {
    render() {
@@ -13,8 +13,8 @@ class Footer extends React.Component {
                </div>
 
                <div className="contactForm-wrapper">
-                  {/* <ContactForm></ContactForm> */}
-                  <ContactForm2></ContactForm2>
+                  <ContactForm></ContactForm>
+                  
                </div>
             </div>
          </div>
