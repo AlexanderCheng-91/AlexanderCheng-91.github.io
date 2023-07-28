@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
+import aLogo from "../pictures/icons/brandImage.svg"
 
 function NavBar2(props) {
   const [collapsed, setCollapsed] = useState(true);
@@ -16,10 +17,18 @@ function NavBar2(props) {
 
   return (
     <div>
-      <Navbar color="faded" light>
+      <Navbar color="dark" dark>
         {/* want to make navbar different on desktop and mobile */}
         <NavbarBrand href="/" className="me-auto">
-          reactstrap
+        <img
+        alt="logo"
+        src={aLogo}
+        style={{
+          height: 40,
+          width: 40
+        }}
+      />
+          
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
         <Collapse isOpen={!collapsed} navbar>
