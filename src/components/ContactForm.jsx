@@ -1,19 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Input } from 'reactstrap';
-// import Swal from 'sweetalert2';
 
-// const ContactForm = props => {
-//    function handleClick(e) {
-//       e.preventDefault();
-//       Swal.fire({
-//          title: 'Thanks for clicking!',
-//          text: `I'm debugging node.js feel free to email me: achengster4@gmail.com`,
-//          imageUrl: 'https://i.imgur.com/HoYp1cA.gif',
-//          imageWidth: 300,
-//          imageHeight: 200,
-//          imageAlt: 'Custom image',
-//       });
-//    }
+//we're using web3forms.com to serve our emails
 
 export default class ContactForm extends Component{
    
